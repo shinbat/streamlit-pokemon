@@ -12,15 +12,15 @@ img {
     display: flex;
     justify-content: center;            
 }
-[data-testid='stIconMaterial'] {
-    visibility: hidden;            
-            }
-.st-emotion-cache-19iic4h {
-    pointer-events: none;            
-            }    
-[data-testid="stElementToolbarButtonContainer"]  {
-    visibility: hidden;            
-            }                                 
+# [data-testid='stIconMaterial'] {
+#     visibility: hidden;            
+#             }
+# .st-emotion-cache-19iic4h {
+#     pointer-events: none;            
+#             }    
+# [data-testid="stElementToolbarButtonContainer"]  {
+#     visibility: hidden;            
+#             }                                 
 </style> 
 """, unsafe_allow_html=True)
 
