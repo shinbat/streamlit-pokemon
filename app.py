@@ -47,7 +47,10 @@ pg = st.navigation(pages)
 pg.run()
 
 st.divider() 
-st.link_button('Youtube 강좌', 'https://youtu.be/F8a-0JFHfOo?si=kHzusCwLH1K-iWMU')
+col1, col2, col3 = st.columns(3)
+col1.link_button('youtube', 'https://youtu.be/F8a-0JFHfOo?si=kHzusCwLH1K-iWMU')
+col2.link_button('github', 'https://github.com/shinbat/streamlit-pokemon.git')
+col3.link_button('streamlit', 'https://docs.streamlit.io/')
 ####################################
 # python, streamlit 설치 (pip hello)
 # streamlit run app.py 로 실행한다
